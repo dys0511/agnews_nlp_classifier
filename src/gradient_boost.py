@@ -11,7 +11,6 @@ from sklearn.metrics import (
     classification_report, ConfusionMatrixDisplay
 )
 
-# 1. Load dataset
 train_df = pd.read_csv("data/train.csv")
 test_df = pd.read_csv("data/test.csv")
 
