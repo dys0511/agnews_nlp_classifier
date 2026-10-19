@@ -32,8 +32,7 @@ X_test_text = test_df["text"].apply(clean_text)
 y_train = train_df["label"]
 y_test = test_df["label"]
 
-# 3. Convert text into TF-IDF features
-# Keep features sparse to reduce memory usage
+
 vectorizer = TfidfVectorizer(
     max_features=20000,
     ngram_range=(1, 2),
