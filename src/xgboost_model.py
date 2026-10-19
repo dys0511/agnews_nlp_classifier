@@ -63,10 +63,10 @@ start_time = time.time()
 model.fit(X_train, y_train)
 training_time = time.time() - start_time
 
-# 5. Predict categories
+
 y_pred = model.predict(X_test)
 
-# 6. Evaluate model
+
 print("\n--- XGBoost Results ---")
 print("Accuracy:", round(accuracy_score(y_test, y_pred), 4))
 print("Macro Precision:", round(
