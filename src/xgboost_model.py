@@ -87,7 +87,7 @@ print(classification_report(
     target_names=["World", "Sports", "Business", "Sci/Tech"]
 ))
 
-# 7. Confusion matrix
+
 ConfusionMatrixDisplay.from_predictions(
     y_test,
     y_pred,
