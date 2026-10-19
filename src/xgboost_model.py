@@ -15,7 +15,7 @@ from sklearn.metrics import (
 )
 from xgboost import XGBClassifier
 
-# 1. Load dataset
+
 train_df = pd.read_csv("data/train.csv")
 test_df = pd.read_csv("data/test.csv")
 
