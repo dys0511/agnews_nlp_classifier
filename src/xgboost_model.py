@@ -19,7 +19,7 @@ from xgboost import XGBClassifier
 train_df = pd.read_csv("data/train.csv")
 test_df = pd.read_csv("data/test.csv")
 
-# 2. Clean text
+
 def clean_text(text):
     text = text.lower()
     text = re.sub(r"\\+", " ", text)
